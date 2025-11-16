@@ -1,0 +1,31 @@
+{
+  "name": "decentralized-discord",
+  "version": "1.0.0",
+  "description": "A decentralized Discord-style DApp with on-chain channels, NFT access control, and secure Ether transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "client": "cd client && npm start",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "blockchain",
+    "dapp",
+    "nft",
+    "discord",
+    "messaging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "hardhat": "^2.27.0"
+  }
+}
